@@ -1,0 +1,56 @@
+.fondo{ height: 800px;
+  border-radius: 0% 
+    top: 0px;
+     border:solid
+#000000 5px width: 100%
+  height: 400%;
+
+}
+.periodo{
+
+ position: absolute;
+top: 100px;
+  left:450px;
+  height: 200px;
+   font-family: Copperplate, Papyrus, fantasy, monospace;
+   height: 300px; 
+   opacity: 90%;
+   text-shadow: 2px 2px #17202A;
+   animation-name: ulidos;
+  animation-duration:2s;
+  animation-iteration-count: infinite; 
+  font-size: 30px;
+   
+} 
+@keyframes ulidos{
+ 22%{color:#17202A ;  } 
+ 44%{color:#F4D03F ;  }
+ 66%{color:#5DADE2  ;  }
+ 88%{color:#2ECC71  ;  }
+ 100%{color: #D35400  ;  }
+ }
+   
+   .b1{
+position: absolute;
+top: 60px;
+width: 220px;
+  height: 100px;
+  left:100px;
+  background-image: url(fotos/bp42.png);
+  background-size: cover;
+  transition: 1s;
+}
+.linea{
+  position: absolute;
+top: 200px;
+  left:50px;
+  height: 200px;
+   font-family: Copperplate, Papyrus, fantasy, monospace;
+   width: 300px;
+}
+
+.mar{
+position: absolute;
+top: -15px;
+left:1000px;
+opacity: 90%;
